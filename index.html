@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxisPM - Enterprise Project Management Tool</title>
+    <link rel="stylesheet" href="./landing-page/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav__logo">
+                <img src="./landing-page/assets/axisPM-log-nobackground.jpg" alt="AxisPM Logo" class="nav__logo-img">
+                <span class="nav__logo-text">AxisPM</span>
+            </div>
+            <div class="nav__links">
+                <a href="#who-needs" class="nav__link">Who Needs AxisPM</a>
+                <a href="#features" class="nav__link">Features</a>
+                <a href="#pricing" class="nav__link">Pricing</a>
+                <a href="#about" class="nav__link">About</a>
+                <a href="#contact" class="nav__link">Contact</a>
+                <a href="./login.php" class="nav__link nav__link--cta">
+                    <span>Start Now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <button class="nav__mobile-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">The ultimate tool for <span class="hero__dynamic-text"></span></h1>
+                <p class="hero__subtitle">Streamline your project management with our enterprise-grade solution</p>
+                <div class="hero__cta">
+                    <a href="./login.php" class="cta-button">Start Now →</a>
+                    <p class="hero__cta-note">Access requires purchased credentials. Contact sales for demo access.</p>
+                </div>
+            </div>
+            <div class="hero__bubbles">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
+        </section>
+
+        <!-- Value Proposition Section -->
+        <section id="who-needs" class="value-prop">
+            <div class="stakeholders">
+                <h3>Who Needs AxisPM?</h3>
+                <p class="stakeholders-subtitle">Our platform is designed for organizations that value efficiency, security, and control in their project management processes.</p>
+                <div class="stakeholder-cards">
+                    <div class="stakeholder-card">
+                        <h4>Enterprise Companies</h4>
+                        <p>Perfect for large organizations seeking:</p>
+                        <ul class="stakeholder-features">
+                            <li><i class="fas fa-check"></i> Centralized project oversight</li>
+                            <li><i class="fas fa-check"></i> Custom role hierarchies</li>
+                            <li><i class="fas fa-check"></i> Advanced security controls</li>
+                            <li><i class="fas fa-check"></i> Cross-department coordination</li>
+                        </ul>
+                    </div>
+                    <div class="stakeholder-card">
+                        <h4>IT & Development Teams</h4>
+                        <p>Ideal for technical teams requiring:</p>
+                        <ul class="stakeholder-features">
+                            <li><i class="fas fa-check"></i> Secure self-hosting options</li>
+                            <li><i class="fas fa-check"></i> API integration capabilities</li>
+                            <li><i class="fas fa-check"></i> Custom workflow automation</li>
+                            <li><i class="fas fa-check"></i> Advanced reporting tools</li>
+                        </ul>
+                    </div>
+                    <div class="stakeholder-card">
+                        <h4>Project Teams</h4>
+                        <p>Built for teams that need:</p>
+                        <ul class="stakeholder-features">
+                            <li><i class="fas fa-check"></i> Clear task visibility</li>
+                            <li><i class="fas fa-check"></i> Real-time collaboration</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                            <li><i class="fas fa-check"></i> Resource management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="features-subtitle">Everything you need to manage projects efficiently and keep your team on track.</p>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🗂️</div>
+                    <h3>Project & Task Management</h3>
+                    <p>Create projects with nested tasks and subtasks with drag-and-drop prioritization</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Task Assistant</h3>
+                    <p>Get smart suggestions for task organization and deadline optimization</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Real-Time Collaboration</h3>
+                    <p>Comment threads, @mentions, and file sharing for seamless teamwork</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Custom Priority System</h3>
+                    <p>Visual priority tagging (Urgent/High/Medium/Low) with color coding</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Role-Based Access</h3>
+                    <p>Admin → Manager → Employee hierarchy with granular permissions</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Executive Dashboard</h3>
+                    <p>Real-time overview of all projects, tasks, and team member activity in one unified view</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <h2 class="section-title">Pricing</h2>
+            <div class="pricing__card">
+                <h3 class="pricing__title">Enterprise License</h3>
+                <div class="pricing__price">$99<span class="pricing__period">/one-time</span></div>
+                <p class="pricing__subtitle">One-time purchase, self-hosted solution for your company.</p>
+                <ul class="pricing__features">
+                    <li>Self-hosted on your infrastructure</li>
+                    <li>Unlimited users and projects</li>
+                    <li>Role-based access control</li>
+                    <li>Advanced analytics and reporting</li>
+                    <li>1 year of updates and support</li>
+                </ul>
+                <a href="/login" class="cta-button">Get Started →</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <!-- Left: Team (50%) -->
+                <div class="team-section">
+                    <div class="team-cards">
+                        <!-- Row 1 -->
+                        <div class="member-card" style="--glow-color: var(--member-blue)">
+                            <div class="member-badge">DK</div>
+                            <h4>Demri Kamel</h4>
+                            <p>Project Lead</p>
+                        </div>
+                        <div class="member-card" style="--glow-color: var(--member-green)">
+                            <div class="member-badge">KF</div>
+                            <h4>Khechine Fouaz</h4>
+                            <p>Developer</p>
+                        </div>
+                        <div class="member-card" style="--glow-color: var(--member-orange)">
+                            <div class="member-badge">NK</div>
+                            <h4>Noua Khouloud</h4>
+                            <p>Developer</p>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="member-card" style="--glow-color: var(--member-red)">
+                            <div class="member-badge">MH</div>
+                            <h4>Malak Hadjeres</h4>
+                            <p>UI/UX</p>
+                        </div>
+                        <div class="member-card" style="--glow-color: var(--member-purple)">
+                            <div class="member-badge">LA</div>
+                            <h4>Lakrouf Abdelhak</h4>
+                            <p>Developer</p>
+                        </div>
+                        <div class="member-card" style="--glow-color: var(--member-teal)">
+                            <div class="member-badge">AZ</div>
+                            <h4>Aichour Zakaria</h4>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: University (50%) -->
+                <div class="university-section">
+                    <img src="./landing-page/assets/boumerdes-university.png" alt="University Campus" loading="lazy">
+                    <div class="university-info">
+                        <h3>M'Hamed Bougara University</h3>
+                        <p>Computer Science Department<br>2024/2025 Project<br>Supervised by Dr. Yahiatene</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact__grid">
+                <!-- Left: Form -->
+                <div class="contact__form">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Message..." rows="5"></textarea>
+                        <button class="cta-button">Send Message →</button>
+                    </form>
+                </div>
+
+                <!-- Right: Contact Info -->
+                <div class="contact__info">
+                    <h2 class="section-title">Contact Information</h2>
+                    <div class="contact__item">
+                        <h4>Address</h4>
+                        <p>Faculty of Sciences<br>M'Hamed Bougara University<br>Boumerdes, Algeria</p>
+                    </div>
+                    <div class="contact__item">
+                        <h4>Email</h4>
+                        <p>support@axis-pm.com</p>
+                    </div>
+                    <div class="contact__item">
+                        <h4>Social</h4>
+                        <div class="social-links">
+                            <a href="#">GitHub</a> • <a href="#">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__grid">
+                <!-- Column 1 -->
+                <div class="footer__col">
+                    <h4>About AxisPM</h4>
+                    <p>Enterprise project management solution developed by CS students.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer__col">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">Release Notes</a>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer__col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="footer__col">
+                    <h4>University</h4>
+                    <p>M'Hamed Bougara University<br>Computer Science Dept.<br>2024/2025</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer__bottom">
+                <p>&copy; 2025 AxisPM. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./landing-page/script.js"></script>
+</body>
+</html>

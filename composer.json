@@ -1,0 +1,17 @@
+{
+    "name": "kali/aixpm",
+    "description": "simple",
+    "require": {
+        "openai/openai": "^1.0 || dev-main",
+        "openai-php/client": "^0.10.3",
+        "symfony/http-client": "^7.2",
+        "nyholm/psr7": "^1.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
